@@ -1,0 +1,58 @@
+.fruit-counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 230px;
+    height: 60px;
+    border: 2px solid #26402B;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+h4 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    align-self: center;
+    margin: 3px;
+    padding: 10px 0 10px 20px;
+}
+
+.counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 3px;
+    padding: 10px 20px 10px 0;
+}
+
+.counter-button {
+    height: 18px;
+    width: 18px;
+    padding: 3px 3px 6px;
+    align-self: center;
+    background-color: #AEE5D8;
+    border: none;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #17261A;
+    text-align: center;
+}
+
+.counter-button:hover {
+    background-color: #17261A;
+    color: #AEE5D8;
+}
+
+.counter-button:active {
+    background-color: #AEE5D8;
+    color: #17261A;
+}
+
+p {
+    margin: 5px;
+    align-self: center;
+}
+
